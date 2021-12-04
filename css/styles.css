@@ -731,10 +731,13 @@ a.footer-logo {
   fill: var(--third-color--);
 }
 
-.modal-form-checkbox:checked + .checkbox-label .modal-check-item,
-.modal-form-checkbox:focus + .checkbox-label .modal-check-item {
+.modal-form-checkbox:checked + .checkbox-label .modal-check-item {
   background-color: var(--accent-color--);
   border: none;
+}
+
+.modal-form-checkbox:focus + .checkbox-label .modal-check-item {
+  border-color: var(--accent-color--);
 }
 
 .form-btn-submit {
